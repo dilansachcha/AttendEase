@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "AttendEase",
+    "slug": "AttendEase",
+    "scheme": "AttendEase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/attendease.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/attendease.png",
+      "resizeMode": "native",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/attendease.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ]
+  }
+}

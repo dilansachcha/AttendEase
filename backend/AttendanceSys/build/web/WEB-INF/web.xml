@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>LoadHomeData</servlet-name>
+        <servlet-class>controller.LoadHomeData</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VerifyEmployee</servlet-name>
+        <servlet-class>controller.VerifyEmployee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoadHomeData</servlet-name>
+        <url-pattern>/LoadHomeData</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SysSignIn</servlet-name>
+        <servlet-class>controller.SysSignIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SysSignIn</servlet-name>
+        <url-pattern>/SysSignIn</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SysSignUp</servlet-name>
+        <servlet-class>controller.SysSignUp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SysSignUp</servlet-name>
+        <url-pattern>/SysSignUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VerifyEmployee</servlet-name>
+        <url-pattern>/VerifyEmployee</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
