@@ -47,8 +47,8 @@
 
 ## 📁 Project Structure
 
+```
 AttendEase/
-│
 ├── backend/               # Java EE project (NetBeans)
 │   └── AttendanceSys/
 │       ├── src/java/
@@ -68,4 +68,73 @@ AttendEase/
 │   └── attendease.sql
 │
 └── README.md              # This file
+```
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. 🧑‍💻 Java Backend (NetBeans)
+- Open `AttendanceSys` in NetBeans.
+- Make sure MySQL is running.
+- Edit DB credentials in `hibernate.cfg.xml`.
+- Deploy to GlassFish or Tomcat.
+
+### 2. 📱 React Native Mobile App
+
+```bash
+cd mobile/AttendanceSystem
+npm install
+npx expo start
+```
+
+Set your `.env` file:
+
+```ini
+EXPO_PUBLIC_URL=http://<your-local-ip>:8080
+```
+
+### 3. 🤖 Arduino IoT Setup (ESP32)
+- Open `iot/sendReq.ino` in Arduino IDE.
+- Install dependencies:
+  - ESPAsyncWebServer
+  - ArduinoJson
+  - LiquidCrystal_PCF8574
+  - Keypad
+  - NewPing
+- Replace WiFi credentials inside `.ino`.
+- Upload to ESP32.
+
+### 4. 🛢️ MySQL Setup
+- Open HeidiSQL or phpMyAdmin.
+- Import `/database/attendease.sql`.
+
+---
+
+## 🤖 Smart IoT Door Logic
+
+- ESP32 collects mobile and passkey via keypad.
+- Sends HTTP POST to backend.
+- On success:
+  - Unlocks the door (via Servo).
+  - LCD displays “Access Granted”.
+  - WhatsApp alert sent to admin.
+- Ultrasonic sensor detects passage.
+- Door auto-closes afterward.
+
+---
+
+## 🗄️ MySQL Database (Exported via HeidiSQL)
+
+- Tables: `employee`, `attendance`, `attendance_status`, `admin`
+- Relational model with constraints.
+- Sample data included.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, remix, and distribute!
+
 
