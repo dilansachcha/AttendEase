@@ -46,3 +46,26 @@
 ---
 
 ## 📁 Project Structure
+
+AttendEase/
+│
+├── backend/               # Java EE project (NetBeans)
+│   └── AttendanceSys/
+│       ├── src/java/
+│       ├── web/
+│       └── hibernate.cfg.xml
+│
+├── mobile/                # React Native Expo project
+│   └── AttendanceSystem/
+│       ├── app/
+│       ├── assets/
+│       └── index.js, adminhome.js, etc.
+│
+├── iot/                   # Arduino project for ESP32
+│   └── sendReq.ino
+│
+├── database/              # SQL Dump file
+│   └── attendease.sql
+│
+└── README.md              # This file
+
