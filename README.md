@@ -13,23 +13,17 @@
 ### 📱 Mobile App Interface
 | Employee Registration | Admin Dashboard |
 | :---: | :---: |
-| <img src="![employeeatt](https://github.com/user-attachments/assets/22cc0b9d-3fa8-44d2-8efb-256daf43bdbe)
-" width="250" /> | <img src="![admindash](https://github.com/user-attachments/assets/1c47f7f4-8ac3-436f-ba63-5e31c16c07d0)
-" width="250" /> |
+| <img src="https://github.com/user-attachments/assets/22cc0b9d-3fa8-44d2-8efb-256daf43bdbe" width="250" /> | <img src="https://github.com/user-attachments/assets/1c47f7f4-8ac3-436f-ba63-5e31c16c07d0" width="250" /> |
 
 ### 🤖 IoT Hardware Setup
-| Smart Door Controller (Sensor & Actuator) & LCD | ESP32 Wiring & Assembly |
+| Smart Door Controller<br><sub>(Sensor, Actuator & LCD)</sub> | ESP32 Wiring & Assembly |
 | :---: | :---: |
-| <img src="![attdorr](https://github.com/user-attachments/assets/17706778-1ff1-4679-8823-247ca548d65a)
-" width="250" /> | <img src="![attendease-2](https://github.com/user-attachments/assets/dd272b7f-adca-420d-819e-b3b1c941520b)
-" width="250" /> |
+| <img src="https://github.com/user-attachments/assets/17706778-1ff1-4679-8823-247ca548d65a" width="250" /> | <img src="https://github.com/user-attachments/assets/dd272b7f-adca-420d-819e-b3b1c941520b" width="250" /> |
 
 ### 📩 Automated Alerts
-| Email Welcome Notification with Instructions | WhatsApp Access Alerts (for System Admin) |
+| Email Welcome Notification<br><sub>(with Instructions)</sub> | WhatsApp Access Alerts<br><sub>(for System Admin)</sub> |
 | :---: | :---: |
-| <img src="![attmail](https://github.com/user-attachments/assets/55014ec7-a88e-4dcb-833f-97c983b5b6f4)
-" width="250" /> | <img src="![attendease-5](https://github.com/user-attachments/assets/d87b1b46-d9c1-44c3-ab5c-6ec3e9d1cf75)
-" width="250" /> |
+| <img src="https://github.com/user-attachments/assets/55014ec7-a88e-4dcb-833f-97c983b5b6f4" width="250" /> | <img src="https://github.com/user-attachments/assets/d87b1b46-d9c1-44c3-ab5c-6ec3e9d1cf75" width="250" /> |
 
 ---
 
