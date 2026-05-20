@@ -1,4 +1,5 @@
 # AttendEase 🚪📱💻
+[![Watch the Demo](https://img.shields.io/badge/YouTube-Watch_Full_Build_&_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/i9oCqoubkzM?si=McQlb0R2W7dHhXCn)
 
 **An IoT-powered Smart Attendance Monitoring System** combining:
 * 📱 Mobile app (React Native - Expo)
